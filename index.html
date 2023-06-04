@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        .main{
+            font-size: 40px;
+        }
+        .result{
+            font-size: 30px;
+        }
+        /* input[type="checkbox"] {
+    transform: scale(1.5); /* Adjust the value to increase or decrease the size */
+    
+    input[type="radio"] {
+    width: 15px; /* Adjust the width value to increase or decrease the size */
+    height: 20px; /* Adjust the height value to increase or decrease the size */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+    </style>
+</head>
+<body>
+    <div class="whole_content">
+    <div class="main">
+        <h1>
+            Ninjas quiz
+        </h1>
+    </div>
+    <div class="result">
+        <p><span>score is 0%</span></p>
+    </div>
+    <form class="form_main">
+        <div class="form">
+            <p class="form_para ">1. Do you know me </p>
+            <div class="answer">
+            <!-- <input type="checkbox" value="A" name="q1">
+            <span class="checkbox_content">do you know me?</span>
+            <br>
+            <input type="checkbox" value="B" name="q1">
+            <span class="checkbox_content">do you know me?</span> -->
+
+              <!-- * name is can also be changed with username -->
+
+            <input type="radio" name="q1" value="A"> No i am not <br>      
+            <input type="radio" name="q1" value="B"> Yes I am <br>
+           </div>
+        </div>
+        <div class="form">
+            <p class="form_para ">2. This keyword value reamins same. </p>
+            <div class="answer">
+                <input type="radio" name="q2" value="A">  In normal function <br>
+                <input type="radio" name="q2" value="B">  In arrow function <br>
+           </div>
+        </div>
+        <div class="form">
+            <p class="form_para ">3. what is 3*3 </p>
+            <div class="answer">
+                <input type="radio" name="q3" value="A">  9<br>
+                <input type="radio" name="q3" value="B">  6 <br>
+           </div>
+        </div>
+        <div class="form">
+            <p class="form_para ">4. why subham loves poltics </p>
+            <div class="answer">
+                <input type="radio" name="q4" value="A">  Bring change in the society <br>
+                <input type="radio" name="q4" value="B">  Feel the power <br>
+           </div>
+        </div>
+        
+          
+            <input class="button" type="submit" value="Submit">
+         
+        
+           <!-- At a time only one value is selected -->
+
+        <!-- <input type="radio" name="group" value="option1"> Option 1<br>  // to create an option in which you can only select the only one 
+        <input type="radio" name="group" value="option2"> Option 2<br> -->
+
+    </form>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

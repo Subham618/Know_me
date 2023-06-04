@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.main{
+    text-align: center;
+    margin: 10px 5px;
+    color: brown;
+    padding: 10px;
+}
+
+.result{
+    display: none;
+}
+.final_result{
+    /* display: none; */
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+.form_main{
+    margin-top: 40px;
+    
+    background-color: green;
+   margin-bottom: 50px;
+   padding-bottom: 20px;
+}
+.form{
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: 30px;
+}
+.form_para{
+    
+    padding: 10px;
+}
+.answer{
+    margin-left: 50px;
+}
+.checkbox_content{
+    margin-left: 10px;
+}
+.button{
+    margin-left: 22%;
+    margin-top: 10px;
+    cursor: pointer;
+    color: brown;
+    border-radius: 10px;
+    padding: 12px 24px; /* Adjust the padding values to increase or decrease the size */
+    font-size: 18px; /* Adjust the font-size value to increase or decrease the text size */
+}
+.button:hover{
+    color: black;
+    background-color: aqua;
+}
